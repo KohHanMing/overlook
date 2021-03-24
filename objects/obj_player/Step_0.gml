@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-//speed = global.speed
+speed = global.speed
 
 if (place_meeting(x + WALL_COLL_DETECT_RANGE, y, obj_wall)) { //right collision
 		speed = 0;
