@@ -6,3 +6,10 @@ WALL_COLL_DETECT_RANGE = 6;
 WALL_COLL_DISPLACEMENT = 3;
 image_speed = 0;
 image_index = 0;
+debug = false;
+
+
+//Settings for final room
+hasDrawnText1 = false;
+hasDrawnText2 = false;
+hasDrawnText3 = false;
