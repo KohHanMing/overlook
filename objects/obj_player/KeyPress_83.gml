@@ -1,5 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-image_index = 3;
+sprite_index = spr_player_up_and_down;
 direction = 270;
 speed -= SPEED_REDUCE_ON_CHANGE_DIR;
