@@ -25,6 +25,31 @@ if (place_meeting(x + WALL_COLL_DETECT_RANGE, y, obj_wall)) { //right collision
 } else {
 }
 
+//Sabrina added this for the moving platform:
+if (place_meeting(x + WALL_COLL_DETECT_RANGE, y, obj_moving_platform)) { //right collision
+	speed = 0;
+	x -= WALL_COLL_DISPLACEMENT;
+} else if (place_meeting(x, y - WALL_COLL_DETECT_RANGE, obj_moving_platform)) { //top collision
+	speed = 0;
+	y += WALL_COLL_DISPLACEMENT;
+} else if (place_meeting(x - WALL_COLL_DETECT_RANGE, y, obj_moving_platform)) { //left collision
+	speed = 0;
+	x += WALL_COLL_DISPLACEMENT;
+} else if (place_meeting(x, y + WALL_COLL_DETECT_RANGE, obj_moving_platform)) { //bottom collision
+	speed = 0;
+	y -= WALL_COLL_DISPLACEMENT;
+} else if (debug == true) {
+	if (keyboard_check(vk_space) && speed < MAX_SPEED) {
+		speed += 0.1;	
+	} else if (speed > 0) {
+		speed -= 0.1;
+	} else {
+		speed = 0;
+	}
+} else {
+}
+//End of Sabrina extra code
+
 if (room == rm_finish) {
 	if (x > xstart + 200 && !hasDrawnText1) {
 		instance_create_layer(0, 0, "Instances", obj_finish_text_1);
