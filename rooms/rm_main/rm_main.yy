@@ -120,8 +120,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "3_Pathway Map",
+    "path": "folders/Rooms/3_Pathway Map.yy",
   },
   "resourceVersion": "1.0",
   "name": "rm_main",

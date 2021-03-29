@@ -46,8 +46,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "6_Ending",
+    "path": "folders/Rooms/6_Ending.yy",
   },
   "resourceVersion": "1.0",
   "name": "rm_final",
