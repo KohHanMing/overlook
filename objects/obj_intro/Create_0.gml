@@ -35,6 +35,8 @@ prompt_two_alpha = 0;
 
 
 //Finally awake
+AWAKE_TIMER_DUR = 450;
+AWAKE_INTERVAL = 75;
 is_player_enabled = false;
 awake_timer = WAKE_TIMER_DUR;
 has_awake_started = false;
@@ -45,10 +47,15 @@ awake_text_one_alpha = 0;
 awake_text_two_alpha = 0;
 
 //WASD instruction
-WASD_TIMER_DUR = 75;
-WASD_ALPHA_RATE_OF_CHANGE = 1 / WASD_TIMER_DUR;
+WASD_TIMER_DUR = 45;
+WASD_ALPHA_RATE_OF_CHANGE = 0.7 / WASD_TIMER_DUR;
+WASD_TEXT_ALPHA_RATE_OF_CHANGE = 1 / WASD_TIMER_DUR;
 wasd_timer = WASD_TIMER_DUR;
 has_wasd_started = false;
+wasd_text_x = 405;
+wasd_text_y = 345;
+wasd_text_alpha = 0;
+exit_text_alpha = 0;
 
 
 
