@@ -2,18 +2,18 @@
 // You can write your code in this editor
 speed = global.speed
 
-if (place_meeting(x + WALL_COLL_DETECT_RANGE, y, obj_wall)) { //right collision
+if (place_meeting(x + speed, y, obj_wall)) { //right collision
+	x -= speed;
 	speed = 0;
-	x -= WALL_COLL_DISPLACEMENT;
-} else if (place_meeting(x, y - WALL_COLL_DETECT_RANGE, obj_wall)) { //top collision
+} else if (place_meeting(x, y - speed, obj_wall)) { //top collision
+	y += speed;
 	speed = 0;
-	y += WALL_COLL_DISPLACEMENT;
-} else if (place_meeting(x - WALL_COLL_DETECT_RANGE, y, obj_wall)) { //left collision
+} else if (place_meeting(x - speed, y, obj_wall)) { //left collision
+	x += speed;
 	speed = 0;
-	x += WALL_COLL_DISPLACEMENT;
-} else if (place_meeting(x, y + WALL_COLL_DETECT_RANGE, obj_wall)) { //bottom collision
-	speed = 0;
-	y -= WALL_COLL_DISPLACEMENT;
+} else if (place_meeting(x, y + speed, obj_wall)) { //bottom collision
+	y -= speed;
+	speed = 0;	
 } else if (debug == true) {
 	if (keyboard_check(vk_space) && speed < MAX_SPEED) {
 		speed += 0.1;	
@@ -26,18 +26,18 @@ if (place_meeting(x + WALL_COLL_DETECT_RANGE, y, obj_wall)) { //right collision
 }
 
 //Sabrina added this for the moving platform:
-if (place_meeting(x + WALL_COLL_DETECT_RANGE, y, obj_moving_platform)) { //right collision
+if (place_meeting(x + speed, y, obj_moving_platform)) { //right collision
+	x -= speed;
 	speed = 0;
-	x -= WALL_COLL_DISPLACEMENT;
-} else if (place_meeting(x, y - WALL_COLL_DETECT_RANGE, obj_moving_platform)) { //top collision
+} else if (place_meeting(x, y - speed, obj_moving_platform)) { //top collision
+	y += speed;
 	speed = 0;
-	y += WALL_COLL_DISPLACEMENT;
-} else if (place_meeting(x - WALL_COLL_DETECT_RANGE, y, obj_moving_platform)) { //left collision
+} else if (place_meeting(x - speed, y, obj_moving_platform)) { //left collision
+	x += speed;
 	speed = 0;
-	x += WALL_COLL_DISPLACEMENT;
-} else if (place_meeting(x, y + WALL_COLL_DETECT_RANGE, obj_moving_platform)) { //bottom collision
-	speed = 0;
-	y -= WALL_COLL_DISPLACEMENT;
+} else if (place_meeting(x, y + speed, obj_moving_platform)) { //bottom collision
+	y -= speed;
+	speed = 0;	
 } else if (debug == true) {
 	if (keyboard_check(vk_space) && speed < MAX_SPEED) {
 		speed += 0.1;	
