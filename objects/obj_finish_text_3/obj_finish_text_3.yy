@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Others",
+    "path": "folders/Objects/Others.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_finish_text_3",
