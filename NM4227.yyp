@@ -103,9 +103,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_menu_1","path":"rooms/rm_menu_1/rm_menu_1.yy",},},
     {"roomId":{"name":"rm_finish","path":"rooms/rm_finish/rm_finish.yy",},},
     {"roomId":{"name":"rm_menu_2","path":"rooms/rm_menu_2/rm_menu_2.yy",},},
-    {"roomId":{"name":"rm_menu_1","path":"rooms/rm_menu_1/rm_menu_1.yy",},},
     {"roomId":{"name":"rm_introduction","path":"rooms/rm_introduction/rm_introduction.yy",},},
     {"roomId":{"name":"rm_village","path":"rooms/rm_village/rm_village.yy",},},
     {"roomId":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
