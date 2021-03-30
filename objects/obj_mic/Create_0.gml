@@ -12,11 +12,12 @@
 ///Begin audio recording - DISABLE DRAWING HERE!!
 
 //Disable or enable drawing of the graph
-if (room != rm_finish) {
+drawing = false;
+/*if (room != rm_finish) {
 	drawing = true;
 } else {
-	drawing = false;	
-}
+		
+}*/
 
 microphone_volume = 0;
 us_old = -1;
