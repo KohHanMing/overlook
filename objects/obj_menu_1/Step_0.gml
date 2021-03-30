@@ -14,7 +14,7 @@ if (timer >= TIMER_DUR - ANIM_INTERVAL) {
 		start_text_small_alpha = 0;
 		start_text_large_alpha = 1;
 		if (mouse_check_button_pressed(mb_left)) {
-			room_goto(rm_main);	
+			room_goto(rm_introduction);	
 		}
 	} else {
 		start_text_small_alpha = 1;

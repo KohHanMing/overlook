@@ -19,11 +19,9 @@ if (!is_anim_done) {
 			text_alpha = 1;
 			rect_alpha = 1;
 		}
-		//debug
-		is_wake_done = true;
 	}
 }
-/*
+
 //Show player prompt after 3 sec
 if (!is_prompt_one_done && is_anim_done) {
 	if (prompt_one_timer >= PROMPT_INTERVAL) {
@@ -105,7 +103,7 @@ if (!is_prompt_two_done && is_wake_done) {
 		is_prompt_two_done = true;
 	}
 }
-*/
+
 
 //Enable movement
 if (global.volume > 6000 && !is_player_enabled && is_wake_done) {
@@ -122,10 +120,8 @@ if (global.volume > 6000 && !is_player_enabled && is_wake_done) {
 	with (obj_sleeping_effect) {
 		instance_destroy();
 	}
-	//debug
-	is_awake_done = true;
 }
-/*
+
 if (has_awake_started && !is_awake_done) {
 	text_x = obj_player.x + 20;
 	text_y = obj_player.y - 40;
@@ -153,7 +149,7 @@ if (has_awake_started && !is_awake_done) {
 		awake_text_two_alpha = 0;
 	}
 }
-*/
+
 if (!has_wasd_started && is_awake_done) {
 	has_wasd_started = true;
 	instance_create_layer(obj_player.x - 67, obj_player.y - 120, "Instances", obj_key_wasd);
