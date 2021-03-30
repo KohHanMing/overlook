@@ -41,6 +41,7 @@
     {"id":{"name":"rm_village","path":"rooms/rm_village/rm_village.yy",},"order":0,},
     {"id":{"name":"spr_spike","path":"sprites/spr_spike/spr_spike.yy",},"order":4,},
     {"id":{"name":"obj_change_room","path":"objects/obj_change_room/obj_change_room.yy",},"order":14,},
+    {"id":{"name":"FontSpeech","path":"fonts/FontSpeech/FontSpeech.yy",},"order":3,},
     {"id":{"name":"obj_blob","path":"objects/obj_blob/obj_blob.yy",},"order":7,},
     {"id":{"name":"rm_introduction","path":"rooms/rm_introduction/rm_introduction.yy",},"order":0,},
     {"id":{"name":"rm_final","path":"rooms/rm_final/rm_final.yy",},"order":0,},
