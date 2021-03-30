@@ -3,9 +3,9 @@
 
 
 if (global.volume > MAX_VOLUME) { //9000
-	global.speed = 8;	//6.66
+	global.speed = 10;	//6.66
 } else {
-	global.speed = global.volume / 1500; //1500
+	global.speed = global.volume / 1000; //1500
 }
 
 var new_height = 295 - global.volume * RECT_HEIGHT_TO_VOLUME_RATIO; //0.0217
