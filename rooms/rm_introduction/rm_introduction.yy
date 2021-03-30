@@ -52,6 +52,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_cabin_wall_bottom_middle","path":"objects/obj_cabin_wall_bottom_middle/obj_cabin_wall_bottom_middle.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":512.0,"resourceVersion":"1.0","name":"inst_1D263A37","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_cabin_wall_bottom_middle","path":"objects/obj_cabin_wall_bottom_middle/obj_cabin_wall_bottom_middle.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":448.0,"y":512.0,"resourceVersion":"1.0","name":"inst_493F87CF","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_cabin_wall_bottom_middle","path":"objects/obj_cabin_wall_bottom_middle/obj_cabin_wall_bottom_middle.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":512.0,"resourceVersion":"1.0","name":"inst_58C217D","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_cabin_door_right","path":"objects/obj_cabin_door_right/obj_cabin_door_right.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":640.0,"y":384.0,"resourceVersion":"1.0","name":"inst_2EC3E107","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Walls","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_cabin_floor","path":"objects/obj_cabin_floor/obj_cabin_floor.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":192.0,"resourceVersion":"1.0","name":"inst_65C46D7C","tags":[],"resourceType":"GMRInstance",},
@@ -211,6 +212,7 @@
     {"name":"inst_7AF864DB","path":"rooms/rm_introduction/rm_introduction.yy",},
     {"name":"inst_A76DD10","path":"rooms/rm_introduction/rm_introduction.yy",},
     {"name":"inst_25A1CCA8","path":"rooms/rm_introduction/rm_introduction.yy",},
+    {"name":"inst_2EC3E107","path":"rooms/rm_introduction/rm_introduction.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
