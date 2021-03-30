@@ -44,6 +44,14 @@ text_y = 345;
 awake_text_one_alpha = 0;
 awake_text_two_alpha = 0;
 
+//WASD instruction
+WASD_TIMER_DUR = 75;
+WASD_ALPHA_RATE_OF_CHANGE = 1 / WASD_TIMER_DUR;
+wasd_timer = WASD_TIMER_DUR;
+has_wasd_started = false;
+
+
+
 //Other inits
 with (obj_player) {
 	image_alpha = 0;	

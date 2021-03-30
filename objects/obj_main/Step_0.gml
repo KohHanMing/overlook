@@ -3,7 +3,7 @@
 
 
 if (global.volume > MAX_VOLUME) { //9000
-	global.speed = 10;	//6.66
+	global.speed = 9;	//6.66
 } else {
 	global.speed = global.volume / 1000; //1500
 }

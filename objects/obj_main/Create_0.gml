@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-MAX_VOLUME = 10000;
+MAX_VOLUME = 8000;
 RECT_HEIGHT_TO_VOLUME_RATIO = 195 / MAX_VOLUME;
 
 global.volume = 0;
