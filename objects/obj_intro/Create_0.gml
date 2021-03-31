@@ -1,3 +1,6 @@
+//Sound
+is_play_snore = true;
+
 //Fade in timer
 ANIM_TIMER_DUR = 135;
 ANIM_INTERVAL = 45;

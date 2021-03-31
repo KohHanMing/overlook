@@ -1,5 +1,13 @@
-//Fade in
+//Snore audio
+if(is_play_snore) {
+	if (!audio_is_playing(snd_snore)) {
+			audio_play_sound(snd_snore, 10, true);
+	}
+} else {
+	audio_stop_sound(snd_snore);	
+}
 
+//Fade in
 if (!is_anim_done) {
 	if (anim_timer >= ANIM_TIMER_DUR - ANIM_INTERVAL) {
 		anim_timer -= 1;	
@@ -37,6 +45,7 @@ if (!is_prompt_one_done && is_anim_done) {
 //Wake up and fall back asleep.
 //Start wake up cutscene
 if (global.volume > 2400 && !has_wake_started) {
+	is_play_snore = false;
 	is_prompt_one_done = true;
 	prompt_one_alpha = 0;
 	has_wake_started = true;
@@ -77,6 +86,7 @@ if (has_wake_started && !is_wake_done) {
 		wake_text_two_alpha -= WAKE_ALPHA_RATE_OF_CHANGE;
 	} else if (wake_timer >= WAKE_TIMER_DUR - (7 * WAKE_INTERVAL) && wake_timer < WAKE_TIMER_DUR - (6 * WAKE_INTERVAL)) {
 		wake_timer -= 1;
+		is_play_snore = true;
 		with (obj_sleeping_effect) {
 			image_alpha += obj_intro.WAKE_ALPHA_RATE_OF_CHANGE;
 		}
@@ -113,6 +123,7 @@ if (!is_prompt_two_done && is_wake_done) {
 
 //Enable movement
 if (global.volume > 6000 && !is_player_enabled && is_wake_done) {
+	is_play_snore = false;
 	is_player_enabled = true;
 	is_prompt_two_done = true;
 	prompt_two_alpha = 0;
