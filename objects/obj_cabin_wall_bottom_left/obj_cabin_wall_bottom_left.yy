@@ -25,7 +25,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "obj_instruction_room",
-    "path": "folders/Objects/obj_instruction_room.yy",
+    "path": "folders/Objects/Art Objects/obj_instruction_room.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_cabin_wall_bottom_left",

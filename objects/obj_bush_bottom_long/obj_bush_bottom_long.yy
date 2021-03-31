@@ -25,7 +25,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "obj_map_1_pathway",
-    "path": "folders/Objects/obj_map_1_pathway.yy",
+    "path": "folders/Objects/Art Objects/obj_map_1_pathway.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_bush_bottom_long",

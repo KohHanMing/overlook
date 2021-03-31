@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Others",
-    "path": "folders/Objects/Others.yy",
+    "name": "Control Objects",
+    "path": "folders/Objects/Control Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_blob",
