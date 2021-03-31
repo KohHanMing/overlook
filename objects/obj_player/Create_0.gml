@@ -13,3 +13,8 @@ debug = false;
 hasDrawnText1 = false;
 hasDrawnText2 = false;
 hasDrawnText3 = false;
+
+
+if (room != rm_introduction) {
+	instance_create_layer(x, y, "FOV", obj_fov);
+}

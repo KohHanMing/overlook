@@ -28,7 +28,7 @@ if (is_moving_vertically)
 {
 	var toMoveY = movespeed * vertical_direction;
 	if ((starting_vertical_direction < 0 && y + toMoveY <= startY && y + toMoveY >= endY) ||
-		(starting_vertical_direction > 0 && y + toMoveY >= startY && y + toMoveY <= endY))
+		(starting_vertical_direction > 0  && y + toMoveY >= startY && y + toMoveY <= endY))
 	{
 		y += toMoveY;
 	}
