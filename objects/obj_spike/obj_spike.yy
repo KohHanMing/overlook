@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Control Objects",
-    "path": "folders/Objects/Control Objects.yy",
+    "name": "3_Finish",
+    "path": "folders/Objects/Control Objects/Room Control/3_Finish.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_spike",

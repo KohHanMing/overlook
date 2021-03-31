@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Control Objects",
-    "path": "folders/Objects/Control Objects.yy",
+    "name": "Room Control",
+    "path": "folders/Objects/Control Objects/Room Control.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_main",

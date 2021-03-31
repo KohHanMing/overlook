@@ -76,8 +76,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"db2ddff4-e50b-4c1d-8fcf-5004826b74c0","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "spr_player",
+    "path": "folders/Sprites/spr_player.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_sleeping_effect",

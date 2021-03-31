@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Control Objects",
-    "path": "folders/Objects/Control Objects.yy",
+    "name": "Player",
+    "path": "folders/Objects/Control Objects/Player.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_sleeping_effect",

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_player_left",
-    "path": "sprites/spr_player_left/spr_player_left.yy",
+    "name": "spr_player_sleeping",
+    "path": "sprites/spr_player_sleeping/spr_player_sleeping.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Control Objects",
-    "path": "folders/Objects/Control Objects.yy",
+    "name": "Player",
+    "path": "folders/Objects/Control Objects/Player.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_player_disabled",

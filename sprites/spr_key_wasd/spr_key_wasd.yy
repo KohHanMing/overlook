@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8b32195b-8a62-4aaf-abcb-00a9f63c6959","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "spr_wasd",
+    "path": "folders/Sprites/spr_wasd.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_key_wasd",

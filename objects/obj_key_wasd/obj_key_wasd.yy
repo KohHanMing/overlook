@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Control Objects",
-    "path": "folders/Objects/Control Objects.yy",
+    "name": "2_Instruction",
+    "path": "folders/Objects/Control Objects/Room Control/2_Instruction.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_key_wasd",

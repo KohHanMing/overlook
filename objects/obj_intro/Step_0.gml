@@ -43,6 +43,9 @@ if (global.volume > 2400 && !has_wake_started) {
 	with (obj_sleeping_effect) {
 		image_alpha = 0;
 	}
+	with (obj_player_disabled) {
+		sprite_index = spr_player_left;	
+	}
 }
 
 if (has_wake_started && !is_wake_done) {
@@ -76,6 +79,9 @@ if (has_wake_started && !is_wake_done) {
 		wake_timer -= 1;
 		with (obj_sleeping_effect) {
 			image_alpha += obj_intro.WAKE_ALPHA_RATE_OF_CHANGE;
+		}
+		with (obj_player_disabled) {
+			sprite_index = spr_player_sleeping;	
 		}
 		with (obj_main) {
 			text_alpha += obj_intro.WAKE_ALPHA_RATE_OF_CHANGE;

@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Control Objects",
-    "path": "folders/Objects/Control Objects.yy",
+    "name": "Gameplay",
+    "path": "folders/Objects/Control Objects/Gameplay.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_wall",

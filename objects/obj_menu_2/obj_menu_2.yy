@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Control Objects",
-    "path": "folders/Objects/Control Objects.yy",
+    "name": "1_Menu",
+    "path": "folders/Objects/Control Objects/Room Control/1_Menu.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_menu_2",
