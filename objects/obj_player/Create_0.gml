@@ -15,6 +15,6 @@ hasDrawnText2 = false;
 hasDrawnText3 = false;
 
 
-if (room != rm_introduction) {
+if (room != rm_introduction && room != rm_finish) {
 	instance_create_layer(x, y, "FOV", obj_fov);
 }
