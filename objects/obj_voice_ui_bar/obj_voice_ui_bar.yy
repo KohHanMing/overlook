@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_voice_ui",
-    "path": "sprites/spr_voice_ui/spr_voice_ui.yy",
+    "name": "spr_voice_ui_bar_white",
+    "path": "sprites/spr_voice_ui_bar_white/spr_voice_ui_bar_white.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,8 +21,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_voice_ui","path":"objects/obj_voice_ui/obj_voice_ui.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_voice_ui","path":"objects/obj_voice_ui/obj_voice_ui.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_voice_ui_bar","path":"objects/obj_voice_ui_bar/obj_voice_ui_bar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_voice_ui_bar","path":"objects/obj_voice_ui_bar/obj_voice_ui_bar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +31,7 @@
     "path": "folders/Objects/Art Objects/obj_ui.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_voice_ui",
+  "name": "obj_voice_ui_bar",
   "tags": [],
   "resourceType": "GMObject",
 }
