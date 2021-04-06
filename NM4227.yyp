@@ -157,8 +157,9 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_menu_1","path":"rooms/rm_menu_1/rm_menu_1.yy",},},
-    {"roomId":{"name":"rm_trigger_warning","path":"rooms/rm_trigger_warning/rm_trigger_warning.yy",},},
+    {"roomId":{"name":"rm_final","path":"rooms/rm_final/rm_final.yy",},},
     {"roomId":{"name":"rm_finish","path":"rooms/rm_finish/rm_finish.yy",},},
+    {"roomId":{"name":"rm_trigger_warning","path":"rooms/rm_trigger_warning/rm_trigger_warning.yy",},},
     {"roomId":{"name":"rm_village_old","path":"rooms/rm_village_old/rm_village_old.yy",},},
     {"roomId":{"name":"rm_forest","path":"rooms/rm_forest/rm_forest.yy",},},
     {"roomId":{"name":"rm_menu_2","path":"rooms/rm_menu_2/rm_menu_2.yy",},},
@@ -166,7 +167,6 @@
     {"roomId":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
     {"roomId":{"name":"rm_main_og","path":"rooms/rm_main_og/rm_main_og.yy",},},
     {"roomId":{"name":"rm_dupe","path":"rooms/rm_dupe/rm_dupe.yy",},},
-    {"roomId":{"name":"rm_final","path":"rooms/rm_final/rm_final.yy",},},
     {"roomId":{"name":"rm_templates","path":"rooms/rm_templates/rm_templates.yy",},},
     {"roomId":{"name":"rm_introduction_2","path":"rooms/rm_introduction_2/rm_introduction_2.yy",},},
     {"roomId":{"name":"rm_village","path":"rooms/rm_village/rm_village.yy",},},
