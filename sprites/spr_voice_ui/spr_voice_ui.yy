@@ -72,8 +72,8 @@
     {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"f0e6da29-9bef-490c-93ff-40e5d7223ed0","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "spr_voice_ui",
+    "path": "folders/Sprites/spr_voice_ui.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_voice_ui",

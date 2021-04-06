@@ -70,8 +70,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"9d604d18-f143-4fd3-9c48-dad080f011f2","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "spr_voice_ui",
+    "path": "folders/Sprites/spr_voice_ui.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_voice_ui_bar_red",
