@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_moving_platform",
-    "path": "sprites/spr_moving_platform/spr_moving_platform.yy",
+    "name": "spr_moving_blob",
+    "path": "sprites/spr_moving_blob/spr_moving_blob.yy",
   },
   "solid": false,
   "visible": true,
