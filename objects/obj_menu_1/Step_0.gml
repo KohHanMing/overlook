@@ -19,7 +19,7 @@ if (timer >= TIMER_DUR - ANIM_INTERVAL) {
 			has_played_button_sound = true;
 		}
 		if (mouse_check_button_pressed(mb_left)) {
-			room_goto(rm_introduction);	
+			room_goto(rm_trigger_warning);	
 		}
 	} else {
 		start_text_small_alpha = 1;

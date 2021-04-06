@@ -6,6 +6,7 @@
     {"id":{"name":"snd_bg_music","path":"sounds/snd_bg_music/snd_bg_music.yy",},"order":0,},
     {"id":{"name":"snd_wind","path":"sounds/snd_wind/snd_wind.yy",},"order":1,},
     {"id":{"name":"compatibility_report_080321_142154215","path":"notes/compatibility_report_080321_142154215/compatibility_report_080321_142154215.yy",},"order":0,},
+    {"id":{"name":"obj_trigger_warning","path":"objects/obj_trigger_warning/obj_trigger_warning.yy",},"order":2,},
     {"id":{"name":"FontCustomMedium","path":"fonts/FontCustomMedium/FontCustomMedium.yy",},"order":4,},
     {"id":{"name":"obj_cabin_wall_sign_2","path":"objects/obj_cabin_wall_sign_2/obj_cabin_wall_sign_2.yy",},"order":5,},
     {"id":{"name":"spr_key_d","path":"sprites/spr_key_d/spr_key_d.yy",},"order":1,},
@@ -29,6 +30,7 @@
     {"id":{"name":"obj_cabin_short_shelf","path":"objects/obj_cabin_short_shelf/obj_cabin_short_shelf.yy",},"order":2,},
     {"id":{"name":"obj_cabin_wall_top_right","path":"objects/obj_cabin_wall_top_right/obj_cabin_wall_top_right.yy",},"order":8,},
     {"id":{"name":"obj_voice_ui","path":"objects/obj_voice_ui/obj_voice_ui.yy",},"order":0,},
+    {"id":{"name":"rm_trigger_warning","path":"rooms/rm_trigger_warning/rm_trigger_warning.yy",},"order":2,},
     {"id":{"name":"obj_bush_middle_long","path":"objects/obj_bush_middle_long/obj_bush_middle_long.yy",},"order":3,},
     {"id":{"name":"spr_cabin_wall_bottom_middle","path":"sprites/spr_cabin_wall_bottom_middle/spr_cabin_wall_bottom_middle.yy",},"order":7,},
     {"id":{"name":"obj_cabin_cabinet","path":"objects/obj_cabin_cabinet/obj_cabin_cabinet.yy",},"order":1,},
@@ -155,6 +157,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_menu_1","path":"rooms/rm_menu_1/rm_menu_1.yy",},},
+    {"roomId":{"name":"rm_trigger_warning","path":"rooms/rm_trigger_warning/rm_trigger_warning.yy",},},
     {"roomId":{"name":"rm_finish","path":"rooms/rm_finish/rm_finish.yy",},},
     {"roomId":{"name":"rm_village_old","path":"rooms/rm_village_old/rm_village_old.yy",},},
     {"roomId":{"name":"rm_forest","path":"rooms/rm_forest/rm_forest.yy",},},
