@@ -24,5 +24,5 @@ if (room != rm_finish) {
 startTimer = false;
 timer = 120;
 
-instance_create_layer(0, 0, "Instances", obj_voice_ui);
-instance_create_layer(0, 0, "Instances", obj_voice_ui_bar);
+instance_create_layer(0, 0, "UI", obj_voice_ui);
+instance_create_layer(0, 0, "UI", obj_voice_ui_bar);

@@ -120,7 +120,6 @@ if (!is_prompt_two_done && is_wake_done) {
 	}
 }
 
-
 //Enable movement
 if (global.volume > 6000 && !is_player_enabled && is_wake_done) {
 	is_play_snore = false;
