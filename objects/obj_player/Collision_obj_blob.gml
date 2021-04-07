@@ -4,5 +4,5 @@ x = xstart
 y = ystart;
 
 with (obj_blob) {
-	image_xscale = 2;	
+	image_xscale = 1;	
 }

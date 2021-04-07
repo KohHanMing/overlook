@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-image_xscale += 0.005
+image_xscale += 0.0025
 blob_edge_x = x + 260 * image_xscale;
 blob_dist_from_player = obj_player.x - blob_edge_x;
 
