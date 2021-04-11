@@ -61,7 +61,13 @@ if (has_wake_started && !is_wake_done) {
 	if (wake_timer >= WAKE_TIMER_DUR - WAKE_INTERVAL) {
 		with (obj_main) {
 			text_alpha -= obj_intro.WAKE_ALPHA_RATE_OF_CHANGE;
-			rect_alpha -= obj_intro.WAKE_ALPHA_RATE_OF_CHANGE;;
+			rect_alpha -= obj_intro.WAKE_ALPHA_RATE_OF_CHANGE;
+		}
+		with (obj_voice_ui) {
+			image_alpha -= obj_intro.WAKE_ALPHA_RATE_OF_CHANGE;	
+		}
+		with (obj_voice_ui_bar) {
+			image_alpha -= obj_intro.WAKE_ALPHA_RATE_OF_CHANGE;	
 		}
 		wake_timer -= 1;
 		wake_text_one_alpha += WAKE_ALPHA_RATE_OF_CHANGE;
@@ -71,6 +77,12 @@ if (has_wake_started && !is_wake_done) {
 		with (obj_main) {
 			text_alpha = 0;
 			rect_alpha = 0;
+		}
+		with (obj_voice_ui) {
+			image_alpha = 0;	
+		}
+		with (obj_voice_ui_bar) {
+			image_alpha = 0;	
 		}
 	} else if (wake_timer >= WAKE_TIMER_DUR - (3 * WAKE_INTERVAL) && wake_timer < WAKE_TIMER_DUR - (2 * WAKE_INTERVAL)) {
 		wake_timer -= 1;
@@ -97,6 +109,12 @@ if (has_wake_started && !is_wake_done) {
 			text_alpha += obj_intro.WAKE_ALPHA_RATE_OF_CHANGE;
 			rect_alpha += obj_intro.WAKE_ALPHA_RATE_OF_CHANGE;
 		}
+		with (obj_voice_ui) {
+			image_alpha += obj_intro.WAKE_ALPHA_RATE_OF_CHANGE;	
+		}
+		with (obj_voice_ui_bar) {
+			image_alpha += obj_intro.WAKE_ALPHA_RATE_OF_CHANGE;	
+		}
 	} else {
 		is_wake_done = true;
 		wake_text_one_alpha = 0;
@@ -104,6 +122,12 @@ if (has_wake_started && !is_wake_done) {
 		with (obj_main) {
 			text_alpha = 1;
 			rect_alpha = 1;
+		}
+		with (obj_voice_ui) {
+			image_alpha = 1;	
+		}
+		with (obj_voice_ui_bar) {
+			image_alpha = 1;	
 		}
 	}
 }
