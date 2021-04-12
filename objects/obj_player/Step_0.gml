@@ -58,10 +58,10 @@ if (room == rm_finish) {
 	if (x > xstart + 200 && !hasDrawnText1) {
 		instance_create_layer(0, 0, "Instances", obj_finish_text_1);
 		hasDrawnText1 = true;
-	} else if (x > xstart + 800 && !hasDrawnText2) {
+	} else if (x > xstart + 400 && !hasDrawnText2) {
 		instance_create_layer(0, 0, "Instances", obj_finish_text_2);
 		hasDrawnText2 = true;
-	} else if (x > xstart + 1200 && !hasDrawnText3) {
+	} else if (x > xstart + 700 && !hasDrawnText3) {
 		instance_create_layer(0, 0, "Instances", obj_finish_text_3);
 		hasDrawnText3 = true;
 	}

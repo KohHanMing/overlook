@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e88ccb9b-f7d9-4f2e-ad31-eeca69045a83","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "spr_instruction_room",
-    "path": "folders/Sprites/spr_instruction_room.yy",
+    "name": "Furnitures",
+    "path": "folders/Sprites/spr_instruction_room/Furnitures.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_cabin_wall_sign_2",
