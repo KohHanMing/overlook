@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_player_sleeping_old",
-    "path": "sprites/spr_player_sleeping_old/spr_player_sleeping_old.yy",
+    "name": "spr_player_sleeping",
+    "path": "sprites/spr_player_sleeping/spr_player_sleeping.yy",
   },
   "solid": false,
   "visible": true,

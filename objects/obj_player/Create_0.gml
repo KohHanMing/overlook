@@ -20,8 +20,8 @@ if (room != rm_introduction && room != rm_finish) {
 }
 
 if (room == rm_finish) {
-	image_speed = 4;
+	speed = 4;
 	is_finish = true;
 } else {
-	image_speed = 0;	
+	speed = 0;	
 }
