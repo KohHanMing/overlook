@@ -20,7 +20,7 @@ if (room != rm_introduction && room != rm_finish) {
 }
 
 if (room == rm_finish) {
-	speed = 4;
+	speed = 1.5;
 	is_finish = true;
 } else {
 	speed = 0;	
