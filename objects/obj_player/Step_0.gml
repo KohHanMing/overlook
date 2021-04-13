@@ -29,22 +29,22 @@ if(room != rm_finish && room != rm_finish_good) {
 	}
 
 	//Sabrina added this for the moving platform:
-	if (place_meeting(x + 8, y, obj_moving_platform)) { //right collision
+	if (place_meeting(x + 8 + speed, y, obj_moving_platform)) { //right collision
 		x -= obj_moving_platform.movespeed;
 		if (sprite_index == spr_player_right) {
 			speed = 0;
 		}
-	} else if (place_meeting(x, y - 8, obj_moving_platform)) { //top collision
+	} else if (place_meeting(x, y - 8 - speed, obj_moving_platform)) { //top collision
 		y += obj_moving_platform.movespeed;;
 		if (sprite_index == spr_player_up) {
 			speed = 0;
 		}
-	} else if (place_meeting(x - 8, y, obj_moving_platform)) { //left collision
+	} else if (place_meeting(x - 8 - speed, y, obj_moving_platform)) { //left collision
 		x += obj_moving_platform.movespeed;;
 		if (sprite_index == spr_player_left) {
 			speed = 0;
 		}
-	} else if (place_meeting(x, y + 8, obj_moving_platform)) { //bottom collision
+	} else if (place_meeting(x, y + 8 + speed, obj_moving_platform)) { //bottom collision
 		y -= obj_moving_platform.movespeed;;
 		if (sprite_index == spr_player_down) {
 			speed = 0;
