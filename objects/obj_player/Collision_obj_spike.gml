@@ -8,4 +8,8 @@ with (obj_main) {
 	startTimer = true;	
 }
 
+with (obj_finish) {
+	instance_destroy();	
+}
+
 instance_destroy();

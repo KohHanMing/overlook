@@ -1,0 +1,20 @@
+//Anim init
+ANIM_TIMER_DUR = 450;
+ANIM_INTERVAL = 75;
+anim_timer = ANIM_TIMER_DUR;
+//has_anim_started = false;
+is_anim_done = false;
+text_x = 405;
+text_y = 345;
+is_text_one_start = false;
+is_text_two_start = false;
+is_text_three_start = false;
+text_one_timer = 100;
+text_two_timer = 100;
+text_three_timer = 100;
+text_one_string = "It's so loud...";
+text_two_string = "The blob is gone but those sounds are still there...";
+text_three_string = "I'm done.";
+text_one_alpha = 0;
+text_two_alpha = 0;
+text_three_alpha = 0;

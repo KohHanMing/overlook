@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fca6430b-18ec-4805-b839-eb574933fe6c","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "spr_player",
+    "path": "folders/Sprites/spr_player.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_fov",

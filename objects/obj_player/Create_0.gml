@@ -5,15 +5,14 @@ MAX_SPEED = 6;
 //WALL_COLL_DETECT_RANGE = 6;
 //WALL_COLL_DISPLACEMENT = 3;
 
+//Finish room
+has_stopped = false;
+is_jump = false;
+deceleration = 0;
+
+
 image_index = 0;
 debug = false;
-
-
-//Settings for final room
-hasDrawnText1 = false;
-hasDrawnText2 = false;
-hasDrawnText3 = false;
-is_finish = false;
 
 if (room != rm_introduction && room != rm_finish) {
 	instance_create_layer(x, y, "FOV", obj_fov);
@@ -21,7 +20,8 @@ if (room != rm_introduction && room != rm_finish) {
 
 if (room == rm_finish) {
 	speed = 1.5;
-	is_finish = true;
+	image_xscale = 1.6;
+	image_yscale = 1.6;
 } else {
 	speed = 0;	
 }

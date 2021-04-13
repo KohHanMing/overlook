@@ -3,7 +3,7 @@
 
 
 if(room != rm_finish) {
-	
+	speed = global.speed
 	if (place_meeting(x + speed, y, obj_wall)) { //right collision
 		x -= speed;
 		speed = 0;
@@ -25,7 +25,7 @@ if(room != rm_finish) {
 			speed = 0;
 		}
 	} else {
-		speed = global.speed
+
 	}
 
 	//Sabrina added this for the moving platform:
@@ -58,20 +58,27 @@ if(room != rm_finish) {
 			speed = 0;
 		}
 	} else {
-		speed = global.speed
+		
 	}
 //End of Sabrina extra code
 }
 
 if (room == rm_finish) {
-	if (x > xstart + 200 && !hasDrawnText1) {
-		instance_create_layer(0, 0, "Instances", obj_finish_text_1);
-		hasDrawnText1 = true;
-	} else if (x > xstart + 400 && !hasDrawnText2) {
-		instance_create_layer(0, 0, "Instances", obj_finish_text_2);
-		hasDrawnText2 = true;
-	} else if (x > xstart + 700 && !hasDrawnText3) {
-		instance_create_layer(0, 0, "Instances", obj_finish_text_3);
-		hasDrawnText3 = true;
+	if (!has_stopped) {
+		move_towards_point(1240, 450, 2);
+	}
+	
+	if (x > 1235 && !has_stopped) {
+		has_stopped = true;
+		speed = 0;
+		with (obj_voice_ui) {
+			is_break = true;	
+		}
+	}
+	
+	if (is_jump) {
+		hspeed = 2;
+		vspeed = -5 + deceleration;
+		deceleration += 0.20
 	}
 }
