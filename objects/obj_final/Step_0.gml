@@ -25,13 +25,13 @@ if (!is_anim_done) {
 }
 
 if (is_anim_done) {
-	if (point_in_rectangle(mouse_x, mouse_y, room_width/2 - back_text_width/2, room_height/2 + BACK_TXT_DISPL - back_text_height/2, room_width/6 + back_text_width/2, room_height/2 + BACK_TXT_DISPL + back_text_height/2)) {
+	if (point_in_rectangle(mouse_x, mouse_y, room_width/2 - back_text_width/2, room_height/2 + BACK_TXT_DISPL - back_text_height/2, room_width/2 + back_text_width/2, room_height/2 + BACK_TXT_DISPL + back_text_height/2)) {
 		//Hover over back button
 		back_text_small_alpha = 0;
 		back_text_large_alpha = 1;
 		
 		if (mouse_check_button_pressed(mb_left)) {
-			room_goto(rm_menu_1);	
+			room_goto(rm_menu_2);	
 		}
 	} else {
 		back_text_small_alpha = 1;
