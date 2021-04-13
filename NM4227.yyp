@@ -139,6 +139,7 @@
     {"id":{"name":"obj_fov","path":"objects/obj_fov/obj_fov.yy",},"order":5,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
     {"id":{"name":"spr_bush_bottom","path":"sprites/spr_bush_bottom/spr_bush_bottom.yy",},"order":0,},
+    {"id":{"name":"spr_voice_ui_broken","path":"sprites/spr_voice_ui_broken/spr_voice_ui_broken.yy",},"order":4,},
     {"id":{"name":"spr_bush_middle_long","path":"sprites/spr_bush_middle_long/spr_bush_middle_long.yy",},"order":3,},
     {"id":{"name":"spr_cabin_wall_sign_2","path":"sprites/spr_cabin_wall_sign_2/spr_cabin_wall_sign_2.yy",},"order":5,},
     {"id":{"name":"spr_tag_2","path":"sprites/spr_tag_2/spr_tag_2.yy",},"order":9,},
