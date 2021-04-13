@@ -7,5 +7,5 @@ if (room == rm_introduction) {
 } else if (room == rm_village) {
 	room_goto(rm_forest);
 } else if (room == rm_forest) {
-	room_goto(rm_finish);
+	room_goto(rm_finish_good);
 }

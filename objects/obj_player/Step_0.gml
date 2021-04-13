@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-if(room != rm_finish) {
+if(room != rm_finish && room != rm_finish_good) {
 	speed = global.speed
 	if (place_meeting(x + speed, y, obj_wall)) { //right collision
 		x -= speed;
@@ -63,7 +63,7 @@ if(room != rm_finish) {
 //End of Sabrina extra code
 }
 
-if (room == rm_finish) {
+if (room == rm_finish || room == rm_finish_good) {
 	if (!has_stopped) {
 		move_towards_point(1240, 450, 2);
 	}
@@ -71,8 +71,14 @@ if (room == rm_finish) {
 	if (x > 1235 && !has_stopped) {
 		has_stopped = true;
 		speed = 0;
-		with (obj_voice_ui) {
-			is_break = true;	
+		if (room == rm_finish) {
+			with (obj_voice_ui) {
+				is_break = true;	
+			}
+		} else {
+			with (obj_finish_good) {
+				is_fade = true;	
+			}	
 		}
 	}
 	

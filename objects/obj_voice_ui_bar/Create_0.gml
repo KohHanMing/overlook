@@ -2,7 +2,7 @@
 RED_VOLUME = 8000;
 MAX_VOLUME = 8889;
 
-if (room != rm_finish) {
+if (room != rm_finish && room != rm_finish_good) {
 	image_yscale = global.volume / MAX_VOLUME;
 	outer_ui_width = 32;
 	outer_ui_height = 128;

@@ -39,3 +39,14 @@ if (is_text_three_start) {
 		text_three_alpha = 1;
 	}	
 }
+
+if (is_fade) {
+	if (fade_timer > 120) {
+		fade_timer -= 1;
+	} else if (fade_timer > 0 && fade_timer <= 120) {
+		fade_timer -= 1;
+		black_screen_alpha += fade_alpha_rate_of_change;
+	} else {
+		room_goto(rm_final_good);	
+	}
+}

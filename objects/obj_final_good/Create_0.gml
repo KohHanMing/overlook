@@ -1,0 +1,20 @@
+/// @description Insert description here
+// You can write your code in this editor
+text_alpha = 0;
+help_alpha = 0;
+back_text_small_alpha = 0;
+back_text_large_alpha = 0;
+help_string_to_display_1 = "If you are struggling with mental health, you are not alone.";
+help_string_to_display_2 = "SOS Hotline: 1800-221-4444";
+help_string_to_display_3 = "National Care Hotline: 1800-202-6868";
+endings_string = "2 out of 2 endings unlocked.";
+string_alpha = 0;
+TIMER_DUR = 1080;
+ANIM_INTERVAL = 180;
+ANIM_ALPHA_RATE_OF_CHANGE = 1 / ANIM_INTERVAL;
+is_anim_done = false;
+timer = TIMER_DUR;
+BACK_TXT_DISPL = 200;
+back_text_width = 0;
+back_text_height = 0;
+

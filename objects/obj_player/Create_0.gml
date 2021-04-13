@@ -14,11 +14,11 @@ deceleration = 0;
 image_index = 0;
 debug = false;
 
-if (room != rm_introduction && room != rm_finish) {
+if (room != rm_introduction && room != rm_finish && room != rm_finish_good) {
 	instance_create_layer(x, y, "FOV", obj_fov);
 }
 
-if (room == rm_finish) {
+if (room == rm_finish || room == rm_finish_good) {
 	speed = 1.5;
 	image_xscale = 1.6;
 	image_yscale = 1.6;

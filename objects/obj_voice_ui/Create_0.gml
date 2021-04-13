@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (room != rm_finish) {
+if (room != rm_finish && room != rm_finish_good) {
 	image_xscale = 1;
 	image_yscale = 1;
 	border_offset = 10;

@@ -12,9 +12,14 @@ is_text_three_start = false;
 text_one_timer = 100;
 text_two_timer = 100;
 text_three_timer = 100;
-text_one_string = "It's so loud...";
-text_two_string = "Mr Blob is gone but those sounds are still there...";
-text_three_string = "I'm done.";
+text_one_string = "The voices that I hear may still haunt me.";
+text_two_string = "And I may not get better immediately.";
+text_three_string = "But I can make it through this with the support I have.";
 text_one_alpha = 0;
 text_two_alpha = 0;
 text_three_alpha = 0;
+
+black_screen_alpha = 0;
+fade_timer = 240;
+fade_alpha_rate_of_change = 1/120;
+is_fade = false;

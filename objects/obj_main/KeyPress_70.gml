@@ -9,9 +9,9 @@ if (room == rm_introduction) {
 } else if (room == rm_village) {
 	room_goto(rm_forest);
 } else if (room == rm_forest) {
-	room_goto(rm_finish);
-}else if (room == rm_finish) {
-	room_goto(rm_final);
+	room_goto(rm_finish_good);
+}else if (room == rm_finish_good) {
+	room_goto(rm_final_good);
 } else {
 	room_goto(rm_menu_1);
 }
