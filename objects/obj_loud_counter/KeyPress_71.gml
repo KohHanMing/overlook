@@ -12,8 +12,8 @@ if (room == rm_trigger_warning) {
 } else if (room == rm_village) {
 	room_goto(rm_forest);
 } else if (room == rm_forest) {
-	room_goto(rm_finish_good);
-}else if (room == rm_finish_good) {
-	room_goto(rm_final_good);
+	room_goto(rm_finish);
+} else if (room == rm_finish) {
+	room_goto(rm_final);
 } else {
 }
