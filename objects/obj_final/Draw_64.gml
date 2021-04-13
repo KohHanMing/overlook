@@ -2,9 +2,10 @@
 // You can write your code in this editor
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
-draw_text_colour(room_width/2, room_height/2, "Now I won't hear them anymore.", c_white, c_white, c_white, c_white, text_alpha);
-
 draw_set_font(FontCustomMedium);
+draw_set_alpha(text_alpha);
+draw_text_transformed(room_width/2, room_height/2, "Now I won't hear them anymore.", 0.6, 0.6, 0);
+
 text_width = string_width(help_string_to_display_1);
 text_height = string_height(help_string_to_display_1);
 

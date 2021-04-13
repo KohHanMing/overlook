@@ -12,3 +12,5 @@ draw_text_colour(608, 680, "Make a noise ->", c_white, c_white, c_white, c_white
 
 //Second player prompt
 draw_text_colour(660, 630, "Louder ->", c_white, c_white, c_white, c_white, prompt_two_alpha);
+
+draw_set_color(c_white);

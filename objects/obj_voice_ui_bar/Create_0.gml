@@ -13,4 +13,8 @@ total_offset_y = camera_height - outer_ui_height + align_offset + sprite_full_he
 RED_VOLUME = 8000;
 MAX_VOLUME = 8889;
 
-image_yscale = global.volume / MAX_VOLUME;
+if (room != rm_finish) {
+	image_yscale = global.volume / MAX_VOLUME;
+} else {
+	image_yscale = 1;	
+}
