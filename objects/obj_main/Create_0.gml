@@ -1,24 +1,16 @@
 /// @description Insert description here
 // You can write your code in this editor
 MAX_VOLUME = 8000;
-RECT_HEIGHT_TO_VOLUME_RATIO = 195 / MAX_VOLUME;
 
-global.volume = 0;
 global.speed = 0;
 
 //Volume rect
-rect_colour = c_white;
-rect_height = global.speed * 10;
 rect_alpha = 1;
 
-
-//Too Loud counter
-too_loud_counter = 0;
-
-if (room != rm_finish) {
-	text_alpha = 1;
+if (global.is_good_ending_unlocked && (room == rm_main || room == rm_village || room == rm_forest)) {
+	restart_alpha = 1;
 } else {
-	text_alpha = 0;	
+	restart_alpha = 0;	
 }
 
 startTimer = false;

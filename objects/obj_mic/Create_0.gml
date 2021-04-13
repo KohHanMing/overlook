@@ -18,7 +18,7 @@ drawing = false;
 } else {
 		
 }*/
-
+global.volume = 0;
 microphone_volume = 0;
 us_old = -1;
 //Begin audio recording and create buffer and graph

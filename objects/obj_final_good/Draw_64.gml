@@ -4,7 +4,7 @@ draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 draw_set_font(FontCustomMedium);
 draw_set_alpha(text_alpha);
-draw_text_transformed(room_width/2, room_height/2 - 100, "Let’s take things slowly, I’ll be okay someday ♡", 0.6, 0.6, 0);
+draw_text_transformed(room_width/2, room_height/2 - 100, "Let's take things slowly, I'll be okay someday <3", 0.6, 0.6, 0);
 
 text_width = string_width(help_string_to_display_1);
 text_height = string_height(help_string_to_display_1);

@@ -1,3 +1,4 @@
+global.prev_counter = global.too_loud_counter;
 if (room == rm_introduction) {
 	room_goto(rm_oh_no);	
 } else if (room == rm_oh_no) {
@@ -7,5 +8,13 @@ if (room == rm_introduction) {
 } else if (room == rm_village) {
 	room_goto(rm_forest);
 } else if (room == rm_forest) {
-	room_goto(rm_finish_good);
+	if (global.is_good_ending_unlocked) {
+		if (global.too_loud_counter <= 300) {
+			room_goto(rm_finish_good);
+		} else {
+			room_goto(rm_finish);
+		}
+	} else {
+		room_goto(rm_finish);
+	}
 }

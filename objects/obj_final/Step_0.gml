@@ -31,7 +31,9 @@ if (is_anim_done) {
 		back_text_large_alpha = 1;
 		
 		if (mouse_check_button_pressed(mb_left)) {
-			room_goto(rm_menu_2);	
+			room_goto(rm_menu_2);
+			global.is_good_ending_unlocked = true;
+			global.too_loud_counter = 0;
 		}
 	} else {
 		back_text_small_alpha = 1;
