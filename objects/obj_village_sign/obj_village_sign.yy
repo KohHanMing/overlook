@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_signpost",
-    "path": "sprites/spr_signpost/spr_signpost.yy",
+    "name": "spr_village_sign",
+    "path": "sprites/spr_village_sign/spr_village_sign.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "obj_map_2_village",
-    "path": "folders/Objects/Art Objects/obj_map_2_village.yy",
+    "name": "obj_map_1_pathway",
+    "path": "folders/Objects/Art Objects/obj_map_1_pathway.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_signpost",
+  "name": "obj_village_sign",
   "tags": [],
   "resourceType": "GMObject",
 }
