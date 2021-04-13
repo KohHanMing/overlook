@@ -16,6 +16,7 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_final","path":"objects/obj_final/obj_final.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":224.0,"resourceVersion":"1.0","name":"inst_7E20F4B3","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_snd_silence","path":"objects/obj_snd_silence/obj_snd_silence.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":128.0,"resourceVersion":"1.0","name":"inst_4FE284B2","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_final_voice","path":"objects/obj_final_voice/obj_final_voice.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.32352948,"scaleY":2.32352948,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":362.0,"y":384.0,"resourceVersion":"1.0","name":"inst_27112BD0","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"spriteId":null,"colour":4278190080,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
   ],
@@ -25,6 +26,7 @@
   "instanceCreationOrder": [
     {"name":"inst_7E20F4B3","path":"rooms/rm_final/rm_final.yy",},
     {"name":"inst_4FE284B2","path":"rooms/rm_final/rm_final.yy",},
+    {"name":"inst_27112BD0","path":"rooms/rm_final/rm_final.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
