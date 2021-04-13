@@ -40,11 +40,11 @@ if (has_flash_started && !is_flash_done) {
 			has_reset = true;
 			start_text_small_alpha = 1;
 			repeat (25) {
-				var debris = instance_create_layer(irandom_range((room_width/2 - start_text_width * 0.3), (room_width/2 + start_text_width * 0.3)), (room_height/2 + START_TXT_DISPL - start_text_height/2), "Instances", obj_debris);	
+				var debris = instance_create_layer(irandom_range((room_width/2 - start_text_width * 0.3), (room_width/2 + start_text_width * 0.3)), (room_height/2 + START_TXT_DISPL - start_text_height * 0.3), "Instances", obj_debris);	
 				debris.direction = 90;
 			}
 			repeat (25) {
-				var debris = instance_create_layer(irandom_range((room_width/2 - start_text_width * 0.3), (room_width/2 + start_text_width * 0.3)), (room_height/2 + START_TXT_DISPL + start_text_height/2), "Instances", obj_debris);	
+				var debris = instance_create_layer(irandom_range((room_width/2 - start_text_width * 0.3), (room_width/2 + start_text_width * 0.3)), (room_height/2 + START_TXT_DISPL + start_text_height * 0.3), "Instances", obj_debris);	
 				debris.direction = 270;
 			}
 		}
@@ -56,7 +56,7 @@ if (has_flash_started && !is_flash_done) {
 		better_text_small_alpha += BETTER_ALPHA_RATE_OF_CHANGE;
 	} else {
 		better_text_small_alpha = 1;
-		start_text_small_alpha = 0.5;
+		start_text_small_alpha = 0.2;
 		is_flash_done = true;
 	}
 }
@@ -65,6 +65,7 @@ if (is_flash_done) {
 	if (!is_back_page) {
 		back_text_small_alpha = 0;
 		back_text_large_alpha = 0;
+		start_text_small_alpha = 0.2;
 		with (obj_credits) {
 			image_alpha = 0;	
 		}
@@ -101,6 +102,7 @@ if (is_flash_done) {
 			better_text_large_alpha = 0;
 			credits_text_small_alpha = 1;
 			credits_text_large_alpha = 0;
+			start_text_small_alpha = 0.2;
 			has_played_button_sound = false;	
 		}
 	} else {
@@ -111,6 +113,8 @@ if (is_flash_done) {
 		better_text_large_alpha = 0;
 		credits_text_small_alpha = 0;
 		credits_text_large_alpha = 0;
+		start_text_small_alpha = 0;
+		start_text_large_alpha = 0;
 		if (point_in_rectangle(mouse_x, mouse_y, room_width/6 - back_text_width/2, room_height/2 + BACK_TXT_DISPL - back_text_height/2, room_width/6 + back_text_width/2, room_height/2 + BACK_TXT_DISPL + back_text_height/2)) {
 			//Hover over back button
 			back_text_small_alpha = 0;
